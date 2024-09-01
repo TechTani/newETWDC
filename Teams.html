@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+	<style>
+        /* Team Section Styling */
+/* Team Section Styling */
+.team-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3rem;
+    color: #d9232d;
+    margin-bottom: 60px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 280px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.flip-card-front {
+    background-color: #333;
+    color: white;
+}
+
+.flip-card-back {
+    background-color: #0e0d0d;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.member-photo img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #f0f0f0;
+}
+
+.stats {
+    text-align: left;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+</style>
+</head>
+<body>
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 class="section-title">Production Team</h2>
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="member-photo">
+                                <img src="image/def.jpg" alt="Uday">
+                            </div>
+                            <h3>Uday</h3>
+                            <p>Spark</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Stats</h3>
+                            <p class="stats">
+                                <strong>Humour:</strong> &#9608;&#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Cuteness:</strong> &#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Anger:</strong> &#9608;&#9608;&#9608;<br>
+                                <strong>IQ:</strong> &#9608;&#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Finesse:</strong> &#9608;&#9608;&#9608;&#9608;<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Team Member 2 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="member-photo">
+                                <img src="image/def.jpg" alt="Shubh">
+                            </div>
+                            <h3>Shubh</h3>
+                            <p>Spark</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Stats</h3>
+                            <p class="stats">
+                                <strong>Humour:</strong> &#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Cuteness:</strong> &#9608;&#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Anger:</strong> &#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>IQ:</strong> &#9608;&#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Finesse:</strong> &#9608;&#9608;&#9608;<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Team Member 3 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="member-photo">
+                                <img src="image/def.jpg" alt="Aryan">
+                            </div>
+                            <h3>Aryan</h3>
+                            <p>Spark</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Stats</h3>
+                            <p class="stats">
+                                <strong>Humour:</strong> &#9608;&#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Cuteness:</strong> &#9608;&#9608;&#9608;<br>
+                                <strong>Anger:</strong> &#9608;&#9608;&#9608;<br>
+                                <strong>IQ:</strong> &#9608;&#9608;&#9608;&#9608;&#9608;<br>
+                                <strong>Finesse:</strong> &#9608;&#9608;&#9608;&#9608;<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+             
+
+</body>
+<html>
