@@ -101,7 +101,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../download.png") no-repeat center top;
+    background: url("download.png") no-repeat center top;
     background-size:cover;
 }
 
